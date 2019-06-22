@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="oracle.eclipse.tools.weblogic.lib.system">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="oracle.eclipse.tools.weblogic.lib.application/ManejoJPAEJBRESTEar"/>
+	<classpathentry kind="lib" path="C:/Users/edgar/Google Drive/Sistemas/Programacion/JUnit - JavaMail - Log4J/Log4j/Librerias/Log4j/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/edgar/Google Drive/Sistemas/Programacion/Java Empresarial (J2EE) - Swagger/Java Empresarial (J2EE)/Enterprise JavaBeans (EJB)/Librerias EJB/javaee-api-7.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ProjectJPA"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ProjectJPAEJB"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
