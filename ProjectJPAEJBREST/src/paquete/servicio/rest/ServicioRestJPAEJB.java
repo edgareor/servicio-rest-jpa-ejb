@@ -19,6 +19,7 @@ import javax.ws.rs.core.Response;
 
 import org.apache.log4j.Logger;
 
+import paquete.entity.MensajeVO;
 import paquete.entity.Persona;
 import paquete.servicio.delegate.DelegateJpaEjbRest;
 
@@ -26,6 +27,15 @@ import paquete.servicio.delegate.DelegateJpaEjbRest;
 public class ServicioRestJPAEJB {
 	
  	private static Logger logger = Logger.getLogger(ServicioRestJPAEJB.class);
+ 	
+	  @POST
+	  @Path("/extrae-mensaje")
+	  @Consumes("application/json; charset=utf-8")
+	  @Produces("application/json; charset=utf-8")
+	  	public MensajeVO imprimeMensaje(MensajeVO obj) throws Exception {
+		  System.out.println(obj);
+		  return obj;
+	  }
 	
 	  @GET
 	  @Path("/timenow")

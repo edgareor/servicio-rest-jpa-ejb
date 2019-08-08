@@ -3,9 +3,9 @@
 	<name>ProjectJPAEJBRESTComp</name>
 	<comment></comment>
 	<projects>
-		<project>ProjectJPAEJBREST</project>
 		<project>ProjectJPA</project>
 		<project>ProjectJPAEJB</project>
+		<project>ProjectJPAEJBREST</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

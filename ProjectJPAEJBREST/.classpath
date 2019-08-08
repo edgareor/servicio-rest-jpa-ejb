@@ -18,5 +18,6 @@
 	<classpathentry kind="lib" path="C:/Users/edgar/Google Drive/Sistemas/Programacion/Java Empresarial (J2EE) - Swagger/Java Empresarial (J2EE)/Enterprise JavaBeans (EJB)/Librerias EJB/javaee-api-7.0.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/ProjectJPA"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/ProjectJPAEJB"/>
+	<classpathentry kind="lib" path="C:/Users/edgar/Google Drive/Sistemas/Programacion/Java Empresarial (J2EE) - Swagger/Swagger/LibreriasSwagger/swagger-jaxrs-1.5.20.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
