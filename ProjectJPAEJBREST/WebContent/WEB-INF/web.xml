@@ -9,15 +9,7 @@
 		<servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
 		<init-param>
 			<param-name>jersey.config.server.provider.packages</param-name>
-			<param-value>paquete.servicio.rest;com.wordnik.swagger.jaxrs</param-value>
-		</init-param>
-		<init-param>
-			<param-name>swagger.api.basepath</param-name>
-			<param-value>http://localhost:8080/rest-swagger</param-value>
-		</init-param>
-		<init-param>
-			<param-name>swagger.api.title</param-name>
-			<param-value>My Awesome API</param-value>
+			<param-value>paquete.servicio.rest</param-value>
 		</init-param>
 		<init-param>
 			<param-name>api.version</param-name>

@@ -10,6 +10,15 @@ public class MensajeVO implements Serializable{
 	private static final long serialVersionUID = -6419601449168622131L;
 	private String mensaje;
 	private String adicional;
+	private String adicional2;
+
+	public String getAdicional2() {
+		return adicional2;
+	}
+
+	public void setAdicional2(String adicional2) {
+		this.adicional2 = adicional2;
+	}
 
 	public String getAdicional() {
 		return adicional;
@@ -29,7 +38,6 @@ public class MensajeVO implements Serializable{
 
 	@Override
 	public String toString() {
-		return "MensajeVO [mensaje=" + mensaje + ", adicional=" + adicional + "]";
+		return "MensajeVO [mensaje=" + mensaje + ", adicional=" + adicional + ", adicional2=" + adicional2 + "]";
 	}
-	
 }

@@ -1,5 +1,6 @@
 package paquete.servicio.rest;
 
+import java.nio.charset.Charset;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.List;
@@ -30,11 +31,20 @@ public class ServicioRestJPAEJB {
  	
 	  @POST
 	  @Path("/extrae-mensaje")
-	  @Consumes("application/json; charset=utf-8")
-	  @Produces("application/json; charset=utf-8")
+	  @Consumes("application/json; charset=UTF-8")
+	  @Produces("application/json; charset=UTF-8")
 	  	public MensajeVO imprimeMensaje(MensajeVO obj) throws Exception {
-		  System.out.println(obj);
-		  return obj;
+		  
+		  	System.out.println(obj);
+			System.out.println(String.format("file.encoding: %s", System.getProperty("file.encoding")));
+			System.out.println(String.format("defaultCharset: %s", Charset.defaultCharset().name()));
+			
+			MensajeVO objOut = new MensajeVO();
+			objOut.setMensaje(obj.getMensaje());
+			objOut.setAdicional(System.getProperty("file.encoding"));
+			objOut.setAdicional2(Charset.defaultCharset().name());
+			
+		  return objOut;
 	  }
 	
 	  @GET
